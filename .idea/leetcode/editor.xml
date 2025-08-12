@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[11]盛最多水的容器.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[11]盛最多水的容器.md" />
+              <option name="frontendQuestionId" value="leetcode.cn11" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[11]盛最多水的容器.go" />
+              <option name="titleSlug" value="container-with-most-water" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[128]最长连续序列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[128]最长连续序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn128" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[128]最长连续序列.go" />
+              <option name="titleSlug" value="longest-consecutive-sequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[15]三数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[15]三数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn15" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[15]三数之和.go" />
+              <option name="titleSlug" value="3sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[1]两数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[1]两数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[1]两数之和.go" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[206]反转链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[206]反转链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn206" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[206]反转链表.go" />
+              <option name="titleSlug" value="reverse-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[283]移动零.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[283]移动零.md" />
+              <option name="frontendQuestionId" value="leetcode.cn283" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[283]移动零.go" />
+              <option name="titleSlug" value="move-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[3]无重复字符的最长子串.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[3]无重复字符的最长子串.md" />
+              <option name="frontendQuestionId" value="leetcode.cn3" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[3]无重复字符的最长子串.go" />
+              <option name="titleSlug" value="longest-substring-without-repeating-characters" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[438]找到字符串中所有字母异位词.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[438]找到字符串中所有字母异位词.md" />
+              <option name="frontendQuestionId" value="leetcode.cn438" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[438]找到字符串中所有字母异位词.go" />
+              <option name="titleSlug" value="find-all-anagrams-in-a-string" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[49]字母异位词分组.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[49]字母异位词分组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn49" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[49]字母异位词分组.go" />
+              <option name="titleSlug" value="group-anagrams" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/LC/leetcode/editor/cn/[1]两数之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[1]两数之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn1" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[1]两数之和.go" />
+              <option name="titleSlug" value="two-sum" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

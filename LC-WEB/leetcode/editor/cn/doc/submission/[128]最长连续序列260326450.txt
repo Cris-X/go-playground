@@ -1,0 +1,27 @@
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        // hash去重,不排序
+        unordered_set<int> hash;
+        for (auto x : nums) hash.insert(x);
+
+        int ans = 0;
+        // 枚举hash集合中的每一个数
+        for (auto x : hash) {
+            // 查看当前的数是否是序列的开头
+            if (!hash.count(x - 1)) {
+                int y = x;
+                // 如果有下一位数就枚举下一位数
+                while (hash.count(y + 1)) {
+                    y ++;
+                    // 枚举完下一位数之后要从集合中删除,避免重复枚举
+                    hash.erase(y);
+                }
+                ans = max(ans, y - x + 1);
+            }
+        }
+        return ans;
+    }
+};
+//runtime:64 ms
+//memory:30.3 MB
