@@ -58,6 +58,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[215]数组中的第K个最大元素.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[215]数组中的第K个最大元素.md" />
+              <option name="frontendQuestionId" value="leetcode.cn215" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[215]数组中的第K个最大元素.go" />
+              <option name="titleSlug" value="kth-largest-element-in-an-array" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[283]移动零.go">
           <value>
             <LeetcodeEditor>
@@ -99,6 +110,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[49]字母异位词分组.go" />
               <option name="titleSlug" value="group-anagrams" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[面试题 17.14]最小K个数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[面试题 17.14]最小K个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 17.14" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[面试题 17.14]最小K个数.go" />
+              <option name="titleSlug" value="smallest-k-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
