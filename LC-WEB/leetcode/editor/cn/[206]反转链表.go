@@ -83,16 +83,17 @@ type ListNode struct {
  *     Next *ListNode
  * }
  */
+// 首先「递」到链表末尾，把末尾节点作为新链表的头节点 revHead
+// 然后在「归」的过程中，把经过的节点依次插在新链表的末尾（尾插法）
 func reverseList(head *ListNode) *ListNode {
+	// 判断 head == nil 是为了兼容一开始链表就是空的情况
 	if head == nil || head.Next == nil {
-		return head
+		return head // 链表末尾，即下面的 revHead
 	}
-
-	newHead := reverseList(head.Next)
-
-	head.Next.Next = head
-	head.Next = nil
-
-	return newHead
+	revHead := reverseList(head.Next) // 「递」到链表末尾，拿到新链表的头节点
+	tail := head.Next // 在「归」的过程中，head.Next 就是新链表的末尾
+	tail.Next = head // 把 head 插在新链表的末尾
+	head.Next = nil // 如果不写这行，新链表的末尾两个节点成环，这俩节点互相指向对方
+	return revHead
 }
 //leetcode submit region end(Prohibit modification and deletion)

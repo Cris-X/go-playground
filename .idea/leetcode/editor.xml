@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[160]相交链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[160]相交链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn160" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[160]相交链表.go" />
+              <option name="titleSlug" value="intersection-of-two-linked-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[1]两数之和.go">
           <value>
             <LeetcodeEditor>
@@ -69,6 +80,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[21]合并两个有序链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[21]合并两个有序链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn21" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[21]合并两个有序链表.go" />
+              <option name="titleSlug" value="merge-two-sorted-lists" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[234]回文链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[234]回文链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn234" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[234]回文链表.go" />
+              <option name="titleSlug" value="palindrome-linked-list" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[283]移动零.go">
           <value>
             <LeetcodeEditor>
@@ -77,6 +110,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[283]移动零.go" />
               <option name="titleSlug" value="move-zeroes" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[2]两数相加.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/doc/content/[2]两数相加.md" />
+              <option name="frontendQuestionId" value="leetcode.cn2" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/LC-WEB/leetcode/editor/cn/[2]两数相加.go" />
+              <option name="titleSlug" value="add-two-numbers" />
             </LeetcodeEditor>
           </value>
         </entry>
