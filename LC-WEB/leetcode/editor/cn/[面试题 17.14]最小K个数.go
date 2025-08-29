@@ -17,47 +17,32 @@
 
 package cn
 
-import "container/heap"
+import (
+	"container/heap"
+	"sort"
+)
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-type MaxHeap []int
-func (h MaxHeap) Len() int { return len(h) }
-func (h MaxHeap) Less(i, j int) bool { return h[i] > h[j] } // 大顶堆
-func (h MaxHeap) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
-
-func (h *MaxHeap) Push(x interface{}) {
-	*h = append(*h, x.(int))
-}
-func (h *MaxHeap) Pop() interface{} {
-	old := *h
-	n := len(old)
-	x := old[n - 1]
-	*h = old[0 : n - 1]
-	return x
-}
-
-func smallestK(arr []int, k int) (res []int) {
-	if k == 0 || len(arr) == 0 {
-		return []int{}
+func smallestK(arr []int, k int) []int {
+	if k == 0 {
+		return nil
 	}
-
-	h := &MaxHeap{}
+	h := &hp{arr[:k]}
 	heap.Init(h)
-
-	for _, num := range arr {
-		if h.Len() < k {
-			// 堆未满，直接加入
-			heap.Push(h, num)
-		} else if num < (*h)[0] {
-			// 当前元素比堆顶小，替换堆顶
-			heap.Pop(h)
-			heap.Push(h, num)
+	for _, v := range arr[k:] {
+		if h.IntSlice[0] > v {
+			h.IntSlice[0] = v
+			heap.Fix(h, 0)
 		}
 	}
-
-	return *h
+	return h.IntSlice
 }
+
+type hp struct{ sort.IntSlice }
+func (h hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
+func (hp) Push(interface{})     {}
+func (hp) Pop() (_ interface{}) { return }
 //leetcode submit region end(Prohibit modification and deletion)
 
 // 主要方法：快排 -> 快速选择
@@ -67,16 +52,16 @@ func quickSelect(arr []int, left, right, k int) {
 	}
 
 	// 分区
-	pivot := partition(arr, left, right)
+	pivotIdx := partition(arr, left, right)
 
-	if pivot == k {
+	if pivotIdx == k {
 		return // 找到了第k个位置
-	} else if pivot < k {
+	} else if pivotIdx < k {
 		// 第k个元素在右边
-		quickSelect(arr, pivot+1, right, k)
+		quickSelect(arr, pivotIdx+1, right, k)
 	} else {
 		// 第k个元素在左边
-		quickSelect(arr, left, pivot-1, k)
+		quickSelect(arr, left, pivotIdx-1, k)
 	}
 }
 
